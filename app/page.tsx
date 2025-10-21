@@ -94,23 +94,3 @@ export default function Page(){
   );
 }
 
-'use client'
-import React from "react"
-import Link from "next/link"
-
-export default function Landing(){
-  return (
-    <main style={{minHeight:'100vh',display:'flex',alignItems:'center',justifyContent:'center',textAlign:'center',padding:'24px'}}>
-      <div style={{maxWidth:720}}>
-        <h1 style={{fontSize:36,marginBottom:12}}>Tourindex</h1>
-        <p style={{color:'#475569',marginBottom:24}}>
-          Δείκτες βιώσιμου τουρισμού σε ένα καθαρό ταμπλό.
-        </p>
-        <div style={{display:'flex',gap:12,justifyContent:'center',flexWrap:'wrap'}}>
-          <Link href="/dashboard"><span style={{padding:'10px 16px',background:'#2563eb',color:'#fff',borderRadius:12,cursor:'pointer'}}>Δες Demo</span></Link>
-          <Link href="/login"><span style={{padding:'10px 16px',border:'1px solid #2563eb',color:'#2563eb',borderRadius:12,cursor:'pointer'}}>Ξεκίνα</span></Link>
-        </div>
-      </div>
-    </main>
-  )
-}
