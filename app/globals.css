@@ -8,3 +8,5 @@ html,body{margin:0;padding:0;font-family:system-ui,Segoe UI,Roboto,Arial,sans-se
 .text-lg{font-size:18px}.text-2xl{font-size:24px}.font-semibold{font-weight:600}
 .text-sm{font-size:14px}.text-xs{font-size:12px}.text-gray-700{color:#334155}
 input{font:inherit;border:1px solid #cbd5e1;border-radius:10px;padding:8px;width:100%}
+a { text-decoration:none; }
+button, a.button { cursor:pointer; }
